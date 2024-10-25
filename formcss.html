@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        body {
+            background-color: #1b69ef;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        form {
+            background-color: white;
+            padding: 20px;
+            border-radius: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 320px;
+        }
+        h1 {
+            color: #3742fa;
+            font-size: 24px;
+        }
+        p {
+            color: #808080;
+            font-size: 14px;
+        }
+        label {
+            display: block;
+            margin-top: 15px;
+            font-size: 14px;
+            color: #3742fa;
+        }
+        input[type="text"], textarea, select {
+            width: 100%;
+            padding: 10px;
+            border-radius: 10px;
+            border: 1px solid #d1d8e0;
+            margin-top: 5px;
+            font-size: 14px;
+        }
+        input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            background-color: #3742fa;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 20px;
+        }
+        input[type="submit"]:hover {
+            background-color: #5764ff;
+        }
+        select {
+            appearance: none;
+        }
+    </style>
+</head>
+<body>
+
+<form action="https://dummyjson.com/test" method="POST">
+    <h1>Contact us!</h1>
+    <p>Got something to say</p>
+
+    <label for="first_name">First name</label>
+    <input type="text" id="first_name" name="firstName" />
+
+    <label for="last_name">Last name</label>
+    <input type="text" id="last_name" name="lastName" />
+
+    <label for="email">Email use @gmail.com</label>
+    <input type="text" id="email" name="email" />
+
+    <label for="type">What is your message about?</label>
+    <select name="type" id="type">
+        <option hidden>Select one</option>
+        <option value="question">Question</option>
+        <option value="suggestion">Suggestion</option>
+    </select>
+
+    <label for="message">comment</label>
+    <textarea id="message" name="message"></textarea>
+
+    <input type="submit" value="Send my message" />
+</form>
+
+</body>
+</html>
