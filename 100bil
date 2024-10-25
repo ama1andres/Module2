@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Hot 100 Table</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 10px;
+            border: 1px solid #ccc;
+            text-align: left;
+        }
+
+        th {
+            background-color: #eaeaea;
+        }
+
+        td.rank {
+            font-weight: bold;
+            color: #3742fa;
+        }
+
+        td.song {
+            font-weight: bold;
+        }
+
+        td.artist {
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Hot 100 Billboard Table</h1>
+
+<table>
+    <tr>
+        <th>#</th>
+        <th>Song</th>
+        <th>Artist</th>
+        <th>Last Week</th>
+        <th>Peak</th>
+        <th>Weeks</th>
+    </tr>
+    <tr>
+        <td class="rank">2</td>
+        <td class="song">olaris</td>
+        <td class="artist">Artist 1</td>
+        <td>3</td>
+        <td>2</td>
+        <td>10</td>
+    </tr>
+    <tr>
+        <td class="rank">3</td>
+        <td class="song">rusteze</td>
+        <td class="artist">Artist 2</td>
+        <td>1</td>
+        <td>1</td>
+        <td>12</td>
+    </tr>
+    <tr>
+        <td class="rank">4</td>
+        <td class="song">callaita</td>
+        <td class="artist">Artist 3</td>
+        <td>5</td>
+        <td>3</td>
+        <td>7</td>
+    </tr>
+</table>
+
+</body>
+</html>
