@@ -1,0 +1,20 @@
+.poster {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 0;
+    background-color: #ffecd2;
+}
+
+.poster-content {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.shop-button {
+    background-color: #f25c54;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}

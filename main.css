@@ -1,0 +1,16 @@
+@import url('header.css');
+@import url('poster.css');
+@import url('catalog.css');
+
+.contain {
+    padding: 0 10%;
+}
+
+html {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: #f9f9f9;
+}
